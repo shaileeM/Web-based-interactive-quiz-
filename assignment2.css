@@ -1,0 +1,238 @@
+
+ * 
+    {
+    box-sizing: border-box;
+    }
+
+.row:after 
+    {
+    content: "";
+    clear: both;
+    display: block;
+    }
+
+[class*="col-"] 
+    {
+    float: left;
+    padding: 15px;
+    }
+
+/* For phones */
+[class*="col-"] 
+    {
+    width: 100%;
+    }
+
+@media only screen and (min-width: 600px) 
+    {
+    /* For tablets */
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+    }
+
+@media only screen and (min-width: 768px) 
+    {
+    /* For desktops */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    }
+
+
+#dt h3{
+   font-size:20px;
+   float:right;
+   margin-right:20px;
+   margin-top: 20px;
+	}
+#container
+           {
+	       
+	       margin:auto;
+           }
+#headerleft    
+    { 
+         width:5%;
+         float:left; 
+		     padding:5px;		 
+         margin:5px;
+		 }
+
+#heading{
+     font-family:brush script hT;
+     font-size:25px;
+   
+     text-align:center;
+
+}
+
+#header{
+
+      padding:1px;
+    text-align:center;
+    
+    background-color: #3B5B9C;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 20px;
+  }
+#content
+     { 
+
+      
+      width:60%;
+		  padding: 150px 50px 150px 150px;
+		  margin:auto;
+		  
+		  }
+#content p
+     {
+  text-align:center;
+     }
+
+.btn:hover
+{
+background-image:none;
+background-color:#3B5B9C;
+}
+
+#content-right { 
+
+        float:right;
+        visibility: hidden
+       
+       
+       }
+#content-left{ 
+      clear:both;
+      float:left;
+      top : 100px;
+      font-size:20px;
+      padding:1em;
+      background: #FF7F50;
+      padding: 20px; 
+      color: black;
+      width: 25%;
+      border-radius : 20px;
+      visibility: hidden;
+      }
+			   
+#scr,h4{ 
+  margin-top: 50px;
+  border-radius:20px;
+	 }
+
+#score{
+        visibility:hidden;
+        border-radius: 25px;
+        background: #FF7F50;
+        padding: 20px; 
+        top:50px;
+        width: 200px;
+        height: 150px; 
+
+}
+#timer { 
+        
+        margin-top:10px;
+        border-radius: 25px;
+        background: #FF7F50;
+        padding: 20px; 
+        top:20px;
+        width: 200px;
+        height: 150px; 
+}
+#score p{ 
+  font-size:16px;
+}
+
+#footer{
+          clear:both;
+          position : relative;
+          background-color: #3B5B9C;
+          height:30px;
+          top:200px;
+          border-radius:25px;
+         
+         }
+#footer p{
+           font-size:25px;
+           text-align:center; 
+           font-weight: bold;
+           top:30px;
+          }
+#question{
+  height:50%;
+		 }
+
+
+/*#controls{ padding-top:150px;}*/
+         
+body{ 
+	background-color: #40E0D0;
+  
+
+    }
+#answer_choice{
+        visibility:hidden;
+      
+        border-radius: 25px;
+        background: #FF7F50;
+        padding: 20px; 
+        top:20px;
+        width: 500px;
+        height: 150px; 
+}
+#answer_text{
+
+        visibility:hidden;
+        border-radius: 25px;
+        background: #FF7F50;
+        padding: 20px; 
+        top:-100px;
+        width: 500px;
+        height: 150px; 
+
+			  position:relative;
+      }
+#controls1{
+  visibility:hidden;
+}
+#one{
+		visibility:hidden;
+		position:relative;
+    border-radius: 25px;
+    background: #FF7F50;
+    padding: 20px; 
+
+	}
+#two{ 
+       visibility:hidden;
+		   position:relative;
+       border-radius: 25px;
+        background: #FF7F50;
+        padding: 20px; 
+        top:30px;
+  }
+#rad1, #rad2, #rad3, #rad4{ font-size: 20px;}
+#question { font-size:20px;}
+
